@@ -1,0 +1,149 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(110, 89, 230, 0.256);
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+}
+
+ img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+} 
+
+.container{
+    margin: 20px;
+
+}
+
+.profile{
+    width: 100%;
+    background-color: rgba(7, 7, 46, 0.848);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile h1,p{
+    color: white;
+    padding: 20px; 
+    margin: 10px;
+
+}
+
+.profile h1{
+    padding-top: 44px;
+    margin: 0;
+}
+
+.profile p{
+    margin: 0;
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 44px;
+}
+
+.reservations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 95px;
+}
+.reservations img{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.reservations h3{
+    margin-top:0 ;
+    padding: 0 5px 0 5px;
+    font-size: 16px;
+    color: rgba(15, 15, 59, 0.914);
+}
+.space{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bookings{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pending{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.declined{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.all{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faqs{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    position:sticky;
+    bottom: 0;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+}
+
+.footer img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 10px 3px 0 5px;
+}
+
+.footer h3{
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(15, 15, 59, 0.914);
+}
